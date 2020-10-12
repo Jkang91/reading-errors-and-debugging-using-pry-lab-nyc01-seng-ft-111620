@@ -2,8 +2,11 @@
 
 def snake_it_up(string)
   counter == 0
+  n == 10
   if string[0] == "s"
-     + string
+    while counter < n
+    string[0] + string
+    counter += 1
   else
     string
   end
